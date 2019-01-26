@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.498"
+    tools:context="com.example.android.justjava.MainActivity"
+    tools:ignore="MissingConstraints"
+
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:paddingBottom="8dp"
+        android:text="Calculadora de funciones"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        tools:ignore="MissingConstraints"
+
+        >
+
+        <RadioButton
+            android:id="@+id/biseccionador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:duplicateParentState="true"
+            android:text="Biseccion" />
+
+        <RadioButton
+            android:id="@+id/secante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Secante" />
+
+        <RadioButton
+            android:id="@+id/newtonrhapson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Newton" />
+
+        <RadioButton
+            android:id="@+id/reglafalsa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regla Falsa" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/Cajita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Introduce el coeficiente A"
+        android:inputType="numberDecimal|numberSigned"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="MissingConstraints"
+
+        />
+
+
+    <Button
+        android:id="@+id/BotonBlanco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.633"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Final"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:text="TextView"
+        android:visibility="invisible"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/BotonRojo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="Reiniciar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.757"
+        tools:ignore="MissingConstraints" />/>
+
+</android.support.constraint.ConstraintLayout>
