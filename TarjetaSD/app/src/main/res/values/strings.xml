@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tarjeta SD</string>
+    <string name="txt_nombre">Nombre del archivo</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_consultar">buscar</string>
+
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Navegador</string>
+    <string name="txt_web">Ingresa el sitio</string>
+    <string name="btn_accion">Ir al Sitio</string>
+    <string name="btn_cerrar">Cerrar</string>
+</resources>

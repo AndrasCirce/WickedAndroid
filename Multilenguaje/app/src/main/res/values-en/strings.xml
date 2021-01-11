@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multilanguage</string>
+    <string name="txt_nombre">Name</string>
+    <string name="txt_pass">Password</string>
+    <string name="btn_inicio">Sign In</string>
+    <string name="tv_footer">You can talk to me</string>
+</resources>

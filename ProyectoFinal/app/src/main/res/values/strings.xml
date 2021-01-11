@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ProyectoFinal</string>
+    <string name="producto">Ingrese el nombre del producto</string>
+    <string name="ingredientes">Ingrese los ingredientes</string>
+    <string name="precio">Ingrese el precio</string>
+    <string name="categoria">Categoria</string>
+    <string name="btn_subir">Elegir imagen</string>
+    <string name="btn_crear">Crear</string>
+    <string name="btn_guardar">Actualizar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="cambiar">Cambiar imagen</string>
+</resources>

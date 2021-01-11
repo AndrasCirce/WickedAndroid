@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Multilenguaje</string>
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_pass">Contraseña</string>
+    <string name="btn_inicio">Iniciar Sesion</string>
+    <string name="tv_footer">Puedes hablarme a mi</string>
+</resources>
